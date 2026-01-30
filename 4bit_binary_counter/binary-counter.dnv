@@ -1,0 +1,8 @@
+vuiLVSdebugRunInfo = list( nil
+   'layoutLibrary "binary_counter"
+   'layoutCell "binary-counter"
+   'layoutView "layout"
+   'schematicLibrary "binary_counter"
+   'schematicCell "binary-counter"
+   'schematicView "schematic"
+)

@@ -1,0 +1,96 @@
+C nmos(MOS) nmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos(MOS) pmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "full-adder schematic parallel_adder" "full-adder layout parallel_adder"
+N net11 avC8
+N net26 avC12
+N vdd avC9
+N gnd avT811_1
+N A avC1
+N B avC2
+N Cin avC3
+N carry avC11
+N sum avC19
+I PM18 avD27_7
+I PM17 avD27_13
+I PM16 avD27_3
+I PM15 avD27_4
+I PM14 avD27_2
+I PM12 avD27_6
+I PM11 avD27_5
+I PM10 avD27_14
+I PM13 avD27_1
+I PM4 avD27_11
+I PM3 avD27_12
+I PM2 avD27_10
+I PM1 avD27_9
+I PM0 avD27_8
+I NM13 avD21_9
+I NM12 avD21_8
+I NM11 avD21_10
+I NM10 avD21_12
+I NM9 avD21_11
+I NM8 avD21_7
+I NM7 avD21_13
+I NM6 avD21_6
+I NM5 avD21_5
+I NM4 avD21_4
+I NM3 avD21_3
+I NM2 avD21_14
+I NM1 avD21_1
+I NM0 avD21_2
+
+C "half-adder schematic parallel_adder" "half-adder layout parallel_adder"
+N Bb avC1
+N Ab avC2
+N A avC3
+N B avC4
+N vdd avC6
+N gnd avT811_1
+N sum avC8
+N carry avC12
+I PM7 avD27_2
+I PM6 avD27_1
+I PM5 avD27_8
+I PM4 avD27_7
+I PM3 avD27_5
+I PM2 avD27_6
+I PM1 avD27_4
+I PM0 avD27_3
+I NM8 avD21_2
+I NM7 avD21_1
+I NM5 avD21_7
+I NM4 avD21_8
+I NM3 avD21_6
+I NM2 avD21_5
+I NM1 avD21_3
+I NM0 avD21_4
+
+C "parallel-adder schematic parallel_adder" "parallel-adder layout parallel_adder"
+N net27 avC14
+N net24 avC13
+N A0 A0
+N A1 A1
+N A2 A2
+N B0 B0
+N B1 B1
+N B2 B2
+N S0 S0
+N S1 S1
+N S2 S2
+N C0 C0
+N vdd vdd
+N gnd! gnd!
+I I0 |I0
+I I2 |I2
+I I1 |I1
+

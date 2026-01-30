@@ -1,0 +1,3 @@
+!<alc> v1 36
+0    6    0 dff layout binary_counter
+0    7    0 binary-counter layout binary_counter

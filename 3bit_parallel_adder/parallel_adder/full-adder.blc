@@ -1,0 +1,4 @@
+"pmos(MOS)" "pmos(MOS)"
+"nmos(MOS)" "nmos(MOS)"
+"full-adder layout parallel_adder" "full-adder schematic parallel_adder" "nmos(MOS)" "pmos(MOS)"
+Devices filtered from layout

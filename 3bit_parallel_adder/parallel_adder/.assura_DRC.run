@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/home/buet/cadence/ASSURA41/tools/assura/bin/assura /home/buet/Desktop/parallel_adder/parallel-adder.rsf -cdslib /home/buet/Desktop/parallel_adder/cds.lib -restart -gui
+exit $?

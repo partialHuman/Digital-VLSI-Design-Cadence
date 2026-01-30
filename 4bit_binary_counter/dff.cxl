@@ -1,0 +1,33 @@
+C nmos(MOS) nmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos(MOS) pmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "dff schematic binary_counter" "dff layout binary_counter"
+N net16 avC8
+N net13 avC6
+N D D
+N CLK CLK
+N VDD VDD
+N GND GND
+N Q avC11
+N Qb avC10
+I PM5 avD27_4
+I PM4 avD27_5
+I PM2 avD27_3
+I PM1 avD27_2
+I PM0 avD27_1
+I NM5 avD21_4
+I NM4 avD21_5
+I NM3 avD21_6
+I NM2 avD21_2
+I NM1 avD21_3
+I NM0 avD21_1
+

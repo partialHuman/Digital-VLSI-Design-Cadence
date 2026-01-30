@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/home/buet/cadence/ASSURA41/tools/assura/bin/assura /home/buet/Desktop/jk/ff.rsf -cdslib /home/buet/Desktop/jk/cds.lib -gui
+exit $?

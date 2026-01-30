@@ -1,0 +1,4 @@
+!<alc> v1 36
+0    8    0 half-adder layout parallel_adder
+0    7    0 full-adder layout parallel_adder
+0    9    0 parallel-adder layout parallel_adder

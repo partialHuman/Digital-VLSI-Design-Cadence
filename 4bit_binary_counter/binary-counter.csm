@@ -1,0 +1,6 @@
+Schematic                              | Layout                              | Status
+---------------------------------------------------------------------------------------
+dff schematic binary_counter           | dff layout binary_counter           | matched
+binary-counter schematic binary_counter| binary-counter layout binary_counter| matched
+
+Schematic and Layout Match

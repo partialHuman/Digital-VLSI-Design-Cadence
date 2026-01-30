@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'half-adder layout parallel_adder':
+  info: Assign pin label "B" at (0.1250, 4.5150) to layer `M1term'.
+  info: Assign pin label "gnd" at (13.8550, -1.5450) to layer `M1term'.
+  info: Assign pin label "A" at (0.3550, 14.3200) to layer `M1term'.
+  info: Assign pin label "vdd" at (9.7650, 21.1500) to layer `M1term'.
+  info: Assign pin label "carry" at (24.4100, 9.6400) to layer `M1term'.
+  info: Assign pin label "sum" at (24.3350, 15.5700) to layer `M1term'.
+
+***** End of Label Report *****
+

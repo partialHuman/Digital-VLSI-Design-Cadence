@@ -1,0 +1,19 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'parallel-adder layout parallel_adder':
+  info: Assign pin label "B0" at (1.7000, 61.4450) to layer `M1term'.
+  info: Assign pin label "A0" at (1.5000, 71.2400) to layer `M1term'.
+  info: Assign pin label "B1" at (32.4800, 67.4100) to layer `M1term'.
+  info: Assign pin label "gnd!" at (49.3800, 51.1400) to layer `M1term'.
+  info: Assign pin label "S0" at (28.1300, 72.5000) to layer `M1term'.
+  info: Assign pin label "A1" at (32.4400, 74.1550) to layer `M1term'.
+  info: Assign pin label "vdd" at (32.0250, 80.4600) to layer `M1term'.
+  info: Assign pin label "S1" at (73.0600, 64.2550) to layer `M1term'.
+  info: Assign pin label "B2" at (76.1950, 67.4100) to layer `M1term'.
+  info: Assign pin label "A2" at (76.1550, 74.1550) to layer `M1term'.
+  info: Assign pin label "C0" at (116.7900, 59.8700) to layer `M1term'.
+  info: Assign pin label "S2" at (116.7750, 64.2550) to layer `M1term'.
+
+***** End of Label Report *****
+

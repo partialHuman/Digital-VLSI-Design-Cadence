@@ -1,0 +1,11 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'dff layout binary_counter':
+  info: Assign pin label "CLK" at (2.7250, 8.3500) to layer `M1term'.
+  info: Assign pin label "GND" at (11.4350, 1.3650) to layer `M1term'.
+  info: Assign pin label "D" at (1.6150, 13.3850) to layer `M1term'.
+  info: Assign pin label "VDD" at (11.9650, 21.1000) to layer `M1term'.
+
+***** End of Label Report *****
+

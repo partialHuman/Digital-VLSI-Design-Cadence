@@ -1,0 +1,4 @@
+"pmos(MOS)" "pmos(MOS)"
+"nmos(MOS)" "nmos(MOS)"
+"d-latch layout dlatch" "d-latch schematic dlatch" "nmos(MOS)" "pmos(MOS)"
+Devices filtered from layout

@@ -1,0 +1,331 @@
+*INFO* (LO-1027): 5100 license successfully checked out for Virtuoso_Layout_Migrate.
+Mapping file ./migratemap.il not loaded.
+Copy hierarchy mux/4x1mux/_loOptArea_0 to mux/4x1mux/_loOptArea_0
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Preprocess" is running...Sun Nov  9 21:47:25 2025
+
+Backup hierarchy mux/4x1mux/_loOptArea_0 to mux/4x1mux/vlm_save
+Script ./_loOptAreaPreprocess.qts is running...
+// The OptArea Function Definitions
+function _OPTAREA_ = SUBSTRATE
+function _optAreaTemp = _OPTAREA_ & ~ Y0_DRAWING
+create_elements nohier 4x1mux Y0_DRAWING _optAreaTemp
+
+// The OptArea Freeze Commands
+freeze * area Y0_DRAWING
+freeze nmos
+freeze nmos
+freeze pmos
+freeze pmos
+freeze pmos
+freeze nmos
+freeze nmos
+freeze pmos
+freeze nmos
+freeze nmos
+freeze nmos
+freeze nmos
+freeze pmos
+freeze pmos
+freeze pmos
+freeze pmos
+freeze nmos
+freeze nmos
+freeze pmos
+freeze pmos
+freeze pmos
+freeze nmos
+
+Script ./_loOptAreaPreprocess.qts completed successfully.
+Step "Preprocess" completed  Sun Nov  9 21:47:25 2025
+
+Total CPU time for step Preprocess: 0 seconds
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Create holding cells" is running...Sun Nov  9 21:47:25 2025
+
+Step "Create holding cells" failed  Sun Nov  9 21:47:25 2025
+
+Total CPU time for step Create holding cells: 0 seconds
+*INFO* (LO-1027): 5100 license successfully checked out for Virtuoso_Layout_Migrate.
+Mapping file ./migratemap.il not loaded.
+Copy hierarchy mux/4x1mux/_loOptArea_0 to mux/4x1mux/_loOptArea_0
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Preprocess" is running...Sun Nov  9 21:48:22 2025
+
+Backup hierarchy mux/4x1mux/_loOptArea_0 to mux/4x1mux/vlm_save
+Script ./_loOptAreaPreprocess.qts is running...
+// The OptArea Function Definitions
+function _OPTAREA_ = SUBSTRATE
+function _optAreaTemp = _OPTAREA_ & ~ Y0_DRAWING
+create_elements nohier 4x1mux Y0_DRAWING _optAreaTemp
+
+// The OptArea Freeze Commands
+freeze * area Y0_DRAWING
+freeze nmos
+freeze pmos
+freeze pmos
+freeze pmos
+freeze nmos
+
+Script ./_loOptAreaPreprocess.qts completed successfully.
+Step "Preprocess" completed  Sun Nov  9 21:48:22 2025
+
+Total CPU time for step Preprocess: 0 seconds
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Create holding cells" is running...Sun Nov  9 21:48:22 2025
+
+Step "Create holding cells" failed  Sun Nov  9 21:48:22 2025
+
+Total CPU time for step Create holding cells: 0 seconds
+*INFO* (LO-1027): 5100 license successfully checked out for Virtuoso_Layout_Migrate.
+Mapping file ./migratemap.il not loaded.
+Copy hierarchy mux/4x1mux/layout to mux/4x1mux/migrate
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Preprocess" is running...Sun Nov  9 21:48:48 2025
+
+Backup hierarchy mux/4x1mux/migrate to mux/4x1mux/vlm_save
+Step "Preprocess" completed  Sun Nov  9 21:48:48 2025
+
+Total CPU time for step Preprocess: 1 second
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Create holding cells" is running...Sun Nov  9 21:48:48 2025
+
+Step "Create holding cells" failed  Sun Nov  9 21:48:48 2025
+
+Total CPU time for step Create holding cells: 0 seconds
+*INFO* (LO-1027): 5100 license successfully checked out for Virtuoso_Layout_Migrate.
+Mapping file ./migratemap.il not loaded.
+Copy hierarchy mux/4x1mux/_loOptArea_0 to mux/4x1mux/_loOptArea_0
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Preprocess" is running...Sun Nov  9 21:51:15 2025
+
+Backup hierarchy mux/4x1mux/_loOptArea_0 to mux/4x1mux/vlm_save
+Script ./_loOptAreaPreprocess.qts is running...
+// The OptArea Function Definitions
+function _OPTAREA_ = SUBSTRATE
+function _optAreaTemp = _OPTAREA_ & ~ Y0_DRAWING
+create_elements nohier 4x1mux Y0_DRAWING _optAreaTemp
+
+// The OptArea Freeze Commands
+freeze * area Y0_DRAWING
+freeze nmos
+freeze pmos
+
+Script ./_loOptAreaPreprocess.qts completed successfully.
+Step "Preprocess" completed  Sun Nov  9 21:51:15 2025
+
+Total CPU time for step Preprocess: 0 seconds
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk180_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+
+Step "Create holding cells" is running...Sun Nov  9 21:51:15 2025
+
+Step "Create holding cells" failed  Sun Nov  9 21:51:15 2025
+
+Total CPU time for step Create holding cells: 0 seconds

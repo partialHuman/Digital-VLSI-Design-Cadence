@@ -1,0 +1,14 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'ff layout jk':
+  info: Assign pin label "GND" at (3.0150, 10.8800) to layer `M1term'.
+  info: Assign pin label "CLK" at (10.1000, 6.4050) to layer `M1term'.
+  info: Assign pin label "K" at (10.9750, 6.3200) to layer `M1term'.
+  info: Assign pin label "J" at (0.1900, 18.2600) to layer `M1term'.
+  info: Assign pin label "Q" at (12.1100, 16.9500) to layer `M1term'.
+  info: Assign pin label "VDD" at (6.8400, 22.3850) to layer `M1term'.
+  info: Assign pin label "Qb" at (18.1850, 18.1800) to layer `M1term'.
+
+***** End of Label Report *****
+

@@ -1,0 +1,4 @@
+"pmos(MOS)" "pmos(MOS)"
+"nmos(MOS)" "nmos(MOS)"
+"dff layout binary_counter" "dff schematic binary_counter" "nmos(MOS)" "pmos(MOS)"
+Devices filtered from layout

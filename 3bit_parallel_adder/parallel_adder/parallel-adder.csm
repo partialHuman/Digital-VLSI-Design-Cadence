@@ -1,0 +1,7 @@
+Schematic                              | Layout                              | Status
+---------------------------------------------------------------------------------------
+full-adder schematic parallel_adder    | full-adder layout parallel_adder    | matched
+half-adder schematic parallel_adder    | half-adder layout parallel_adder    | matched
+parallel-adder schematic parallel_adder| parallel-adder layout parallel_adder| matched
+
+Schematic and Layout Match

@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 device net parameter pin rewire total
+1  5 (( ( S "dff layout binary_counter" )( L "dff schematic binary_counter" ) )(( 3 0 2 )))

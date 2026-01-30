@@ -1,0 +1,8 @@
+.SUBCIRCUIT =half-adder layout parallel_adder
+.SUBCIRCUIT =full-adder layout parallel_adder
+.SUBCIRCUIT =parallel-adder layout parallel_adder
+half-adder layout parallel_adder ( \
+|I0 )
+full-adder layout parallel_adder ( \
+|I2 , \
+|I1 )

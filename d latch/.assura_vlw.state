@@ -1,0 +1,27 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.4:IC6.1.4.500.10 07/01/11 02:43 (sjlin80) $
+; sub-version 4.1_USR2_HF8
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura VLW saved state
+;----------------------------------------------------------------------------
+
+vuiLayerListOrder  =  "Alphabetical"
+vuiLayerList  = '(
+		("M1term" 242 "M1term = geomAndNot( Metal1 M1dummy )" 0 3 t "y0 (drawing)" t)
+		("M2term" 243 "M2term = geomAndNot( Metal2 M2dummy )" 0 4 t "y1 (drawing)" t)
+		("NSDcont" 1020 "NSDcont = groupVias(  via(NSDcont) conn1(M1term) conn2(NSDterm) )" 1 2 t "y2 (drawing)" t)
+		("NSDterm" 251 "NSDterm = geomAndNot( NSD Resdum )" 0 5 t "y3 (drawing)" t)
+		("NWELLterm" 252 "NWELLterm = geomAndNot( Nwell ResWdum )" 0 6 t "y4 (drawing)" t)
+		("NWVIA" 254 "NWVIA = geomAnd( NSDterm NWELLterm )" 0 7 t "y5 (drawing)" t)
+		("POLYcont" 1017 "POLYcont = groupVias(  via(POLYcont) conn1(M1term) conn2(POLYterm) )" 1 0 t "y6 (drawing)" t)
+		("POLYterm" 256 "POLYterm = geomAndNot( Poly Resdum )" 0 8 t "y7 (drawing)" t)
+		("PSDcont" 1019 "PSDcont = groupVias(  via(PSDcont) conn1(M1term) conn2(PSDterm) )" 1 1 t "y8 (drawing)" t)
+		("PSDterm" 260 "PSDterm = geomAndNot( PSD Resdum )" 0 9 t "y9 (drawing)" t)
+		("PSUB" 282 "PSUB = geomOr( BJTdum L71054 )" 0 10 t "y0 (drawing)" t)
+		("SUBVIA" 285 "SUBVIA = geomAndNot( L56122 Nwell )" 0 11 t "y1 (drawing)" t)
+		("Via1" 213 "Via1 = geomOr( Via1 )" 1 12 t "y2 (drawing)" t)
+)
+vuiVLWLocation  = '((16 687) (131 1387))

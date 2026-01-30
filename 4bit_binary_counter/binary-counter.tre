@@ -1,0 +1,7 @@
+.SUBCIRCUIT =dff schematic binary_counter
+.SUBCIRCUIT =binary-counter schematic binary_counter
+dff schematic binary_counter ( \
+I17 , \
+I16 , \
+I18 , \
+I19 )

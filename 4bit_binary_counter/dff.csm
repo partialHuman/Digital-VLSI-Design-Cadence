@@ -1,0 +1,6 @@
+Schematic                   | Layout                    | Status
+-------------------------------------------------------------------------------
+dff schematic binary_counter| dff layout binary_counter | matched, pin errs  *
+
+Mismatch between Schematic and Layout
+   1 cell matched with pin errors

@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'd-latch layout dlatch':
+  info: Assign pin label "GND" at (1.7700, 5.5950) to layer `M1term'.
+  info: Assign pin label "CLK" at (0.6250, 10.6900) to layer `M1term'.
+  info: Assign pin label "VDD" at (6.5850, 16.7800) to layer `M1term'.
+  info: Assign pin label "D" at (9.9250, 15.1750) to layer `M1term'.
+  info: Assign pin label "Qb" at (19.4100, 9.7100) to layer `M1term'.
+  info: Assign pin label "Q" at (19.4400, 10.7850) to layer `M1term'.
+
+***** End of Label Report *****
+

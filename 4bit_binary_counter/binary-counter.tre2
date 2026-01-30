@@ -1,0 +1,7 @@
+.SUBCIRCUIT =dff layout binary_counter
+.SUBCIRCUIT =binary-counter layout binary_counter
+dff layout binary_counter ( \
+|I16 , \
+|I17 , \
+|I19 , \
+|I18 )

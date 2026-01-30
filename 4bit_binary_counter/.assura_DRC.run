@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/home/buet/cadence/ASSURA41/tools/assura/bin/assura /home/buet/Desktop/binary_counter/binary-counter.rsf -cdslib /home/buet/Desktop/binary_counter/cds.lib -restart -gui
+exit $?

@@ -1,0 +1,38 @@
+C nmos(MOS) nmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos(MOS) pmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "half-adder schematic parallel_adder" "half-adder layout parallel_adder"
+N Bb avC7
+N Ab avC8
+N A A
+N B B
+N vdd vdd
+N gnd gnd
+N sum sum
+N carry carry
+I PM7 avD27_2
+I PM6 avD27_1
+I PM5 avD27_8
+I PM4 avD27_7
+I PM3 avD27_5
+I PM2 avD27_6
+I PM1 avD27_4
+I PM0 avD27_3
+I NM8 avD21_2
+I NM7 avD21_1
+I NM5 avD21_7
+I NM4 avD21_8
+I NM3 avD21_6
+I NM2 avD21_5
+I NM1 avD21_3
+I NM0 avD21_4
+

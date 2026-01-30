@@ -1,0 +1,35 @@
+@(#)$CDS: nvn version av4.1:Production:dfII6.1.4:IC6.1.4.500.10 07/01/2011 03:13 (sjlin80) $
+sub-version 4.1_USR2_HF8, integ signature 2011-07-01-0228
+run on cadence at Mon Nov 17 21:05:33 2025
+
+Schematic                          | Layout                          | Status
+-------------------------------------------------------------------------------
+half-adder schematic parallel_adder| half-adder layout parallel_adder| matched
+
+Schematic and Layout Match
+
+Schematic:
+  Library:parallel_adder
+  Cell   :half-adder
+  View   :schematic
+
+Layout:
+  Library:parallel_adder
+  Cell   :half-adder
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

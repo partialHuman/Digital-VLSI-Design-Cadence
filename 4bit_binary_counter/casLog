@@ -1,0 +1,21 @@
+
+*** Check Against Source on ('binary_counter' 'dff' 'layout') - Mon Nov 17 00:22:32 2025 ***
+
+INFO (LX-1013): Instance terminal 'B' is missing from layout instance '|NM4'.
+INFO (LX-1017): Instance terminal 'D' on layout instance '|NM3' is connected to net 'Q''
+but should be connected to net 'Q'.
+INFO (LX-1017): Instance terminal 'D' on layout instance '|NM4' is connected to net 'Qb''
+but should be connected to net 'Qb'.
+INFO (LX-1017): Instance terminal 'D' on layout instance '|PM4' is connected to net 'Q''
+but should be connected to net 'Q'.
+INFO (LX-1017): Instance terminal 'D' on layout instance '|PM5' is connected to net 'Qb''
+but should be connected to net 'Qb'.
+INFO (LX-1017): Instance terminal 'G' on layout instance '|NM3' is connected to net 'Qb''
+but should be connected to net 'Qb'.
+INFO (LX-1017): Instance terminal 'G' on layout instance '|PM4' is connected to net 'Qb''
+but should be connected to net 'Qb'.
+INFO (LX-1031): Net 'Q'' in the layout design which has no corresponding schematic net is connected to 3 shape(s) and to 3 route(s) and to 1 via(s).
+INFO (LX-1031): Net 'Qb'' in the layout design which has no corresponding schematic net is connected to 4 shape(s) and to 4 route(s) and to 1 via(s).
+
+*** Check Against Source complete. ***
+
